@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Sissor</title>
+</head>
+<body>
+    
+   
+        <header class="game-header">
+            <h1>Rock Paper Scissor</h1>
+        </header>
+    
+        <div class="score-board">
+            <div id="user-lable" class="badge">user</div>
+            <div id="comp-lable" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+    
+        <main class="wrapper">
+        <div class="results">
+            <p>Your result will apper here!👈🏼</p>
+        </div>
+    
+        <div class="choices">
+            <div class="choice Rock" id="rock-div">
+                <img src="/images/icons8-hand-rock-96.png" alt="rock image">
+            </div>
+            <div class="choice Paper" id="paper-div">
+                <img src="/images/icons8-hand-96.png" alt="paper image">
+            </div>
+            <div class="choice Scissor" id="scissor-div">
+                <img src="/images/icons8-hand-scissors-96.png" alt="Scissor image">
+            </div>
+        </div>
+    
+    </main>
+    <p id="take-action">Make your move.</p>
+
+    <script src="brain.js"></script>
+</body>
+</html>
